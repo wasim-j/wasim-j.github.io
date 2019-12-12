@@ -1,7 +1,7 @@
 # Notes
 
 ## Basics
-- [CS50](./basics/cs50.md)
+- [CS50](https://www.youtube.com/playlist?list=PLWKjhJtqVAbmGw5fN5BQlwuug-8bDmabi)
 - [Git & Github](./basics/git.md)
 - [Basic Terminal Usage](./basics/cli.md)
 - [Data Structure and Algorithms](./basics/algs.md)
