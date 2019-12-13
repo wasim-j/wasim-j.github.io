@@ -1,2 +1,8 @@
+# Site settings
+title: Wasim's GitHub Page
 name: Wasim
+github-username: wasim-j
+url: "https://wasim-j.github.io" # the base hostname & protocol for your site
+
+# Build settings
 markdown: kramdown
