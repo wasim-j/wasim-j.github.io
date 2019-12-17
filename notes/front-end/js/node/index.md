@@ -1,3 +1,0 @@
-[UP](../index.md)
-
-# Node
