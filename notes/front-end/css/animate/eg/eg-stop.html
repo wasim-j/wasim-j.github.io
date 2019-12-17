@@ -1,0 +1,88 @@
+<html>
+
+<style>
+.slidein {
+  animation-duration: 5s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+.stopped {
+  animation-name: none;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 50%;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+</style>
+
+<a href="../index.md">UP</a>
+<h1>Stopping an animation</h1>
+
+<h3 id="watchme">Click me to stop</h3>
+<p>
+  This example shows how to use CSS animationEvents to gracefully stop a keyframe animation.</p>
+<p>Caveats:</p>
+<p>the animations must be self-contained (no animation-direction: alternate allowed).</p>
+<p>You must use the js to hook into the <b>animationiteration</b> event and clear animation-name</p>
+
+<script>
+let watchme = document.getElementById('watchme')
+
+watchme.className = 'slidein'
+const listener = (e) => {
+  watchme.className = 'slidein stopped'
+}
+watchme.addEventListener('click', () =>
+  watchme.addEventListener('animationiteration', listener, false)
+)
+
+</script>
+
+<pre>
+<code>
+// CSS
+.slidein {
+  animation-duration: 5s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+.stopped {
+  animation-name: none;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 0%;
+  }
+  50% {
+    margin-left: 50%;
+  }
+  100% {
+    margin-left: 0%;
+  }
+}
+
+// JS
+let watchme = document.getElementById('watchme')
+
+watchme.className = 'slidein'
+const listener = (e) => {
+  watchme.className = 'slidein stopped'
+}
+watchme.addEventListener('click', () =>
+  watchme.addEventListener('animationiteration', listener, false)
+)
+</code>
+</pre>
+
+</html>
