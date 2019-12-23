@@ -5,6 +5,7 @@ layout: default
 <h1>{{site.data.fcc.title}}</h1>
 
 <table class="w3-table w3-bordered">
+	
 	<thead>
 		<tr>
 			<th>Project Name</th>
@@ -13,19 +14,25 @@ layout: default
 			<th><i class="fa fa-sticky-note"></i></th>
 		</tr>
 	</thead>
+	
 	<tbody>
-		{% for certificate in site.data.fcc.certifications %}
+		<!--CERTIFICATE 1 -->
+		<tr>
+			<td colspan=4>{{site.data.fcc.certifications[0].name}} <a href="#" class="w3-bar-item w3-button"><i class="fa fa-trophy"></i></a></td>
+		</tr>
+		{% for project in site.data.fcc.certifications[0].projects %}
 			<tr>
-				<td colspan=4>{{certificate.name}} <a href="#" class="w3-bar-item w3-button"><i class="fa fa-trophy"></i></a></td>
+				<td>{project.name}</td>
+				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
+				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
+				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-link"></i></a></td>
 			</tr>
-			
-			{% tablerow project in site.data.fcc.certifications.projects cols:4 %}
-				{{ project.name }}
-				{{<a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a>}}
-				{{<a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a>}}
-				{{<a href="#" class="w3-bar-item w3-button"><i class="fa fa-link"></i></a>}}
-			{% endtablerow %}
-			
 		{% endfor %}
+		
+		<!--CERTIFICATE 2 -->
+		<!--CERTIFICATE 3 -->
+		<!--CERTIFICATE 4 -->
+		<!--CERTIFICATE 5 -->
+		<!--CERTIFICATE 6 -->
 	</tbody>
 </table>
