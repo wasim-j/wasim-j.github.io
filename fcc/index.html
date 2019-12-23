@@ -4,7 +4,7 @@ layout: default
 
 <h1>{{site.data.fcc.title}}</h1>
 
-<table>
+<table class="w3-table w3-bordered">
 	<thead>
 		<tr>
 			<th>Certificate</th>
@@ -17,8 +17,8 @@ layout: default
 	<tbody>
 		{% for certificate in site.data.fcc.certifications %}
 			<tr>
-			<td rowspan=5>{{certificate.name}} <a href="#" class="w3-bar-item w3-button"><i class="fa fa-trophy"></i></a></td>
-		</tr>
+				<td rowspan=5>{{certificate.name}} <a href="#" class="w3-bar-item w3-button"><i class="fa fa-trophy"></i></a></td>
+			</tr>
 		{% endfor %}
 	</tbody>
 </table>
