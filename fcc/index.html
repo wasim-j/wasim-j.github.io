@@ -20,9 +20,9 @@ icon-code-pen: "fa-codepen"
 			<th>Certificate</th>
 			<th>Project Name</th>
 			<th><i class={{page.icon-question | prepend: "fa "}}></th>
-			<th><i class={{page.icon-code | prepend: "fa "}}</th>
-			<th><i class={{page.icon-play | prepend: "fa "}}</th>
-			<th><i class={{page.icon-note | prepend: "fa "}}</th>
+			<th><i class={{page.icon-code | prepend: "fa "}}> </th>
+			<th><i class={{page.icon-play | prepend: "fa "}}></th>
+			<th><i class={{page.icon-note | prepend: "fa "}}></th>
 		</tr>
 	</thead>
 	
@@ -48,9 +48,9 @@ icon-code-pen: "fa-codepen"
 					<td><a href="#" class="w3-bar-item w3-button"><i class={{page.icon-code-pen | prepend: "fa "}}></i></a></td>
 					<td><a href="#" class="w3-bar-item w3-button"><i class={{page.icon-link | prepend: "fa "}}></i></a></td>
 				{% elsif project.status == false %}
-					<td colspan=3><i class="fa fa-times-circle"></td>
+					<td colspan=3><i class={{page.icon-cross | prepend: "fa "}}></td>
 				{% else %}
-					<td colspan=3><i class="fa fa-question-circle"></td>
+					<td colspan=3><i class={{page.icon-question | prepend: "fa "}}></td>
 				{% endif %}
 				
 			</tr>
