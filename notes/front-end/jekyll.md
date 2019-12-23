@@ -1,3 +1,4 @@
+- [Liquid](https://shopify.github.io/liquid/tags/control-flow/)
 - [Cheat Sheet](https://learn.cloudcannon.com/jekyll-cheat-sheet/)
 - [Learn Jekyll](https://learn.cloudcannon.com/)
 - [Using Jekyll for GitHub Pages](http://jmcglone.com/guides/github-pages/)

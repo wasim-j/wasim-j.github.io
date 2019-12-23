@@ -25,7 +25,13 @@ layout: default
 		{% for project in site.data.fcc.certifications[0].projects %}
 			<tr>
 				<td>{{project.name}}</td>
-				<td><i class="fa fa-question-circle"></td>
+				{% if project.status == true %}
+					<td><i class="fa fa-check-circle"></td>
+				{% elsif project.status == false %}
+					<td><i class="fa fa-times-circle"></td>
+				{% else %}
+					<td><i class="fa fa-question-circle"></td>
+				{% endif %}
 				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
 				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
 				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-link"></i></a></td>
@@ -39,7 +45,13 @@ layout: default
 		{% for project in site.data.fcc.certifications[1].projects %}
 			<tr>
 				<td>{{project.name}}</td>
-				<td><i class="fa fa-question-circle"></td>
+				{% if project.status == true %}
+					<td><i class="fa fa-check-circle"></td>
+				{% elsif project.status == false %}
+					<td><i class="fa fa-times-circle"></td>
+				{% else %}
+					<td><i class="fa fa-question-circle"></td>
+				{% endif %}
 				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
 				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
 				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-link"></i></a></td>
@@ -53,7 +65,13 @@ layout: default
 		{% for project in site.data.fcc.certifications[2].projects %}
 			<tr>
 				<td>{{project.name}}</td>
-				<td><i class="fa fa-question-circle"></td>
+				{% if project.status == true %}
+					<td><i class="fa fa-check-circle"></td>
+				{% elsif project.status == false %}
+					<td><i class="fa fa-times-circle"></td>
+				{% else %}
+					<td><i class="fa fa-question-circle"></td>
+				{% endif %}
 				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
 				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
 				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-link"></i></a></td>
@@ -67,7 +85,13 @@ layout: default
 		{% for project in site.data.fcc.certifications[3].projects %}
 			<tr>
 				<td>{{project.name}}</td>
-				<td><i class="fa fa-question-circle"></td>
+				{% if project.status == true %}
+					<td><i class="fa fa-check-circle"></td>
+				{% elsif project.status == false %}
+					<td><i class="fa fa-times-circle"></td>
+				{% else %}
+					<td><i class="fa fa-question-circle"></td>
+				{% endif %}
 				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
 				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
 				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-link"></i></a></td>
@@ -81,7 +105,13 @@ layout: default
 		{% for project in site.data.fcc.certifications[4].projects %}
 			<tr>
 				<td>{{project.name}}</td>
-				<td><i class="fa fa-question-circle"></td>
+				{% if project.status == true %}
+					<td><i class="fa fa-check-circle"></td>
+				{% elsif project.status == false %}
+					<td><i class="fa fa-times-circle"></td>
+				{% else %}
+					<td><i class="fa fa-question-circle"></td>
+				{% endif %}
 				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
 				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
 				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-link"></i></a></td>
@@ -95,7 +125,13 @@ layout: default
 		{% for project in site.data.fcc.certifications[5].projects %}
 			<tr>
 				<td>{{project.name}}</td>
-				<td><i class="fa fa-question-circle"></td>
+				{% if project.status == true %}
+					<td><i class="fa fa-check-circle"></td>
+				{% elsif project.status == false %}
+					<td><i class="fa fa-times-circle"></td>
+				{% else %}
+					<td><i class="fa fa-question-circle"></td>
+				{% endif %}
 				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
 				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
 				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-link"></i></a></td>
