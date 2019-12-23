@@ -48,9 +48,9 @@ icon-code-pen: "codepen"
 					<td><a href="#" class="w3-bar-item w3-button"><i class={{page.icon-code-pen | prepend: "fa fa-"}}></i></a></td>
 					<td><a href="#" class="w3-bar-item w3-button"><i class={{page.icon-link | prepend: "fa fa-"}}></i></a></td>
 				{% elsif project.status == false %}
-					<td rowspan=3><i class="fa fa-times-circle"></td>
+					<td colspan=3><i class="fa fa-times-circle"></td>
 				{% else %}
-					<td rowspan=3><i class="fa fa-question-circle"></td>
+					<td colspan=3><i class="fa fa-question-circle"></td>
 				{% endif %}
 				
 			</tr>
