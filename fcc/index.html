@@ -1,14 +1,14 @@
 ---
 layout: default
-icon-tick: "fa-check-circle"
-icon-cross: "fa-times-circle"
-icon-question: "fa-question-circle"
-icon-code: "fa-code"
-icon-play: "fa-play"
-icon-note: "fa-sticky-note"
-icon-certificate: "fa-certificate"
-icon-link: "fa-link"
-icon-code-pen: "fa-codepen"
+icon-tick: "fa fa-check-circle"
+icon-cross: "fa fa-times-circle"
+icon-question: "fa fa-question-circle"
+icon-code: "fa fa-code"
+icon-play: "fa fa-play"
+icon-note: "fa fa-sticky-note"
+icon-certificate: "fa fa-certificate"
+icon-link: "fa fa-link"
+icon-code-pen: "fa fa-codepen"
 ---
 
 <h1>{{site.data.fcc.title}}</h1>
@@ -19,38 +19,38 @@ icon-code-pen: "fa-codepen"
 		<tr>
 			<th>Certificate</th>
 			<th>Project Name</th>
-			<th><i class={{page.icon-question | prepend: "fa "}}></th>
-			<th><i class={{page.icon-code | prepend: "fa "}}> </th>
-			<th><i class={{page.icon-play | prepend: "fa "}}></th>
-			<th><i class={{page.icon-note | prepend: "fa "}}></th>
+			<th><i class={{page.icon-question}}></th>
+			<th><i class={{page.icon-code}}> </th>
+			<th><i class={{page.icon-play}}></th>
+			<th><i class={{page.icon-note}}></th>
 		</tr>
 	</thead>
 	
 	<tbody>
 		<!--CERTIFICATE 1 -->
 		<tr>
-			<td rowspan=6>{{site.data.fcc.certifications[0].name}} <a href="#" class="w3-bar-item w3-button"><i class={{page.icon-certificate | prepend: "fa fa-"}}></i></a></td>
+			<td rowspan=6>{{site.data.fcc.certifications[0].name}} <a href="#" class="w3-bar-item w3-button"><i class={{page.icon-certificate}}></i></a></td>
 		</tr>
 		{% for project in site.data.fcc.certifications[0].projects %}
 			<tr>
 				<td>{{project.name}}</td>
 				{% if project.status == true %}
-					<td><i class={{page.icon-tick | prepend: "fa "}}></td>
+					<td><i class={{page.icon-tick }}></td>
 				{% elsif project.status == false %}
-					<td><i class={{page.icon-cross | prepend: "fa "}}></td>
+					<td><i class={{page.icon-cross}}></td>
 				{% else %}
-					<td><i class={{page.icon-question | prepend: "fa "}}></td>
+					<td><i class={{page.icon-question}}></td>
 				{% endif %}
 				
 				
 				{% if project.status == true %}
-					<td><a href="#" class="w3-bar-item w3-button"><i class={{page.icon-code-pen | prepend: "fa "}}></i></a></td>
-					<td><a href="#" class="w3-bar-item w3-button"><i class={{page.icon-code-pen | prepend: "fa "}}></i></a></td>
-					<td><a href="#" class="w3-bar-item w3-button"><i class={{page.icon-link | prepend: "fa "}}></i></a></td>
+					<td><a href="#" class="w3-bar-item w3-button"><i class={{page.icon-code-pen}}></i></a></td>
+					<td><a href="#" class="w3-bar-item w3-button"><i class={{page.icon-code-pen}}></i></a></td>
+					<td><a href="#" class="w3-bar-item w3-button"><i class={{page.icon-link}}></i></a></td>
 				{% elsif project.status == false %}
-					<td colspan=3><i class={{page.icon-cross | prepend: "fa "}}></td>
+					<td colspan=3><i class={{page.icon-cross}}></td>
 				{% else %}
-					<td colspan=3><i class={{page.icon-question | prepend: "fa "}}></td>
+					<td colspan=3><i class={{page.icon-question}}></td>
 				{% endif %}
 				
 			</tr>
