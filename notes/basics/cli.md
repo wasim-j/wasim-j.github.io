@@ -10,8 +10,8 @@
 
 - [How to use Nano](https://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/)
 
-## help
 - `cmd  --help` (explain command)
+- `env` (lists environment variables)
 
 ## keyboard shortcuts
 - `CTRL + L` clear screen 
@@ -25,6 +25,8 @@
 
 ## file ops
 - `touch file1` (create)
-- `less file1` (view)
-- `rm file1` (remove)
+- `less file1` or `cat file1`(view) i.e q to quit if using less
+- `rm file1` (remove) and `rm ./dir.-r` to recursively remove everything from a directory
 - `nano file1` (edit)
+- `mv file1 ./dir` (move) `mv file1 file2` (rename)
+- `cp file1 file2` (copy) copies contents of file1 into file2
