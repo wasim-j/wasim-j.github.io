@@ -19,8 +19,8 @@ layout: default
 				<td colspan=4>{{certificate.name}} <a href="#" class="w3-bar-item w3-button"><i class="fa fa-trophy"></i></a></td>
 			</tr>
 			
-			{% tablerow project in site.data.fcc.certifications.projects %}
-				{{ product.title }}
+			{% tablerow project in site.data.fcc.certifications.projects cols:4 %}
+				{{ project.name }}
 				{{<a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a>}}
 				{{<a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a>}}
 				{{<a href="#" class="w3-bar-item w3-button"><i class="fa fa-link"></i></a>}}
