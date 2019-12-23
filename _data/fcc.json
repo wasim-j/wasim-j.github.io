@@ -1,0 +1,305 @@
+{
+	"title": "My FreeCodeCamp Record",
+	"certifications": [
+		{
+			"name": "Responsive Web Design",
+			"projects: [	
+				{
+					"name": "Tribute Page",
+					"status": false,
+					"links": {
+						"code": "",
+						"example": "",
+						"notes": ""
+					}
+				},
+				{
+					"name": "Survey Form",
+					"status": false,
+					"links": {
+						"code": "",
+						"example": "",
+						"notes": ""
+					}
+				},
+				{
+					"name": "Product Landing Page",
+					"status": false,
+					"links": {
+						"code": "",
+						"example": "",
+						"notes": ""
+					}
+				},
+				{
+					"name": "Technical Documentation Page",
+					"status": false,
+					"links": {
+						"code": "",
+						"example": "",
+						"notes": ""
+					}
+				},
+				{
+					"name": "Personal Portfolio Webpage",
+					"status": false,
+					"links": {
+						"code": "",
+						"example": "",
+						"notes": ""
+					}
+				}
+			]
+		},
+		{
+			"name": "JavaScript Algorithms and Data Structures",
+			"projects: [
+				{
+					"name": "Palindrome Checker",
+					"status": false,
+					"links": {
+						"code": "",
+						"example": "",
+						"notes": ""
+					}
+				},
+				{
+					"name": "Roman Numeral Converter",
+					"status": false,
+					"links": {
+						"code": "",
+						"example": "",
+						"notes": ""
+					}
+				},
+				{
+					"name": "Caesars Cipher",
+					"status": false,
+					"links": {
+						"code": "",
+						"example": "",
+						"notes": ""
+					}
+				},
+				{
+					"name": "Telephone Number Validator",
+					"status": false,
+					"links": {
+						"code": "",
+						"example": "",
+						"notes": ""
+					}
+				},
+				{
+					"name": "Cash Register",
+					"status": false,
+					"links": {
+						"code": "",
+						"example": "",
+						"notes": ""
+					}
+				}
+			]
+		},
+		{
+			"name": "Front End Libraries",
+			"projects: [
+				{
+					"name": "Random Quote Machine",
+					"status": false,
+					"links": {
+						"code": "",
+						"example": "",
+						"notes": ""
+					}
+				},
+				{
+					"name": "Markdown Previewer",
+					"status": false,
+					"links": {
+						"code": "",
+						"example": "",
+						"notes": ""
+					}
+				},
+				{
+					"name": "Drum Machine",
+					"status": false,
+					"links": {
+						"code": "",
+						"example": "",
+						"notes": ""
+					}
+				},
+				{
+					"name": "JavaScript Calculator",
+					"status": false,
+					"links": {
+						"code": "",
+						"example": "",
+						"notes": ""
+					}
+				},
+				{
+					"name": "Pomodoro Clock",
+					"status": false,
+					"links": {
+						"code": "",
+						"example": "",
+						"notes": ""
+					}
+				}
+			]
+		},
+		{
+			"name": "Data Visualization",
+			"projects: [
+				{
+					"name": "Bar Chart",
+					"status": false,
+					"links": {
+						"code": "",
+						"example": "",
+						"notes": ""
+					}
+				},
+				{
+					"name": "Scatterplot Graph",
+					"status": false,
+					"links": {
+						"code": "",
+						"example": "",
+						"notes": ""
+					}
+				},
+				{
+					"name": "Heat Map",
+					"status": false,
+					"links": {
+						"code": "",
+						"example": "",
+						"notes": ""
+					}
+				},
+				{
+					"name": "Choropleth Map",
+					"status": false,
+					"links": {
+						"code": "",
+						"example": "",
+						"notes": ""
+					}
+				},
+				{
+					"name": "Treemap Diagram",
+					"status": false,
+					"links": {
+						"code": "",
+						"example": "",
+						"notes": ""
+					}
+				}
+			]
+		},
+		{
+			"name": "APIs and Microservices",
+			"projects: [
+				{
+					"name": "Timestamp Microservice",
+					"status": false,
+					"links": {
+						"code": "",
+						"example": "",
+						"notes": ""
+					}
+				},
+				{
+					"name": "Request Header Parser Microservice",
+					"status": false,
+					"links": {
+						"code": "",
+						"example": "",
+						"notes": ""
+					}
+				},
+				{
+					"name": "URL Shortener Microservice",
+					"status": false,
+					"links": {
+						"code": "",
+						"example": "",
+						"notes": ""
+					}
+				},
+				{
+					"name": "Exercise Tracker",
+					"status": false,
+					"links": {
+						"code": "",
+						"example": "",
+						"notes": ""
+					}
+				},
+				{
+					"name": "File Metadata Microservice",
+					"status": false,
+					"links": {
+						"code": "",
+						"example": "",
+						"notes": ""
+					}
+				}
+			]
+		},
+		{
+			"name": "Information Security and Quality Assurance",
+			"projects: [
+				{
+					"name": "Metric-Imperial Converter",
+					"status": false,
+					"links": {
+						"code": "",
+						"example": "",
+						"notes": ""
+					}
+				},
+				{
+					"name": "Issue Tracker",
+					"status": false,
+					"links": {
+						"code": "",
+						"example": "",
+						"notes": ""
+					}
+				},
+				{
+					"name": "Personal Library",
+					"status": false,
+					"links": {
+						"code": "",
+						"example": "",
+						"notes": ""
+					}
+				},
+				{
+					"name": "Stock Price Checker",
+					"status": false,
+					"links": {
+						"code": "",
+						"example": "",
+						"notes": ""
+					}
+				},
+				{
+					"name": "Anonymous Message Board",
+					"status": false,
+					"links": {
+						"code": "",
+						"example": "",
+						"notes": ""
+					}
+				}
+			]
+		}
+	]
+}

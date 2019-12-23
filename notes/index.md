@@ -2,6 +2,10 @@
 
 # Notes ([DevDocs](https://devdocs.io/), [MDN](https://developer.mozilla.org/en-US/docs/Web/Reference), [w3schools](https://www.w3schools.com/))
 
+## Notepad++
+- [Manual](https://npp-user-manual.org/)
+- [Resources](https://notepad-plus-plus.org/resources/)
+
 ## [Basics](https://www.freecodecamp.org/news/2019-web-developer-roadmap/)
 
 - [CS50](https://www.youtube.com/playlist?list=PLWKjhJtqVAbmGw5fN5BQlwuug-8bDmabi)
@@ -18,10 +22,20 @@
 - [Character Encodings](https://www.w3schools.com/charsets/)
 
 ## [Front End Web Development](https://roadmap.sh/frontend)
-- GitHub Pages and Jekyll
+- [Jekyll](./front-end/jekyll.md)
+
 - [HTML](./front-end/html/index.md)
 - [CSS](./front-end/css/index.md)
 - [JS](./front-end/js/index.md)
-- Package Managers
+
+- [Build Tools](./tools/build-tools/index.md)
+- [Type Checkers](./tools/type-checkers/index.md)
+- [Testing](./tools/testing/index.md)
+
 
 ## [Back End Web Development](https://roadmap.sh/backend)
+- [Package Managers](./tools/package-managers/index.md)
+- NodeJS (npm)
+- Python (pip)
+- PHP (composer)
+- Ruby (gems)
