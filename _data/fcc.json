@@ -3,7 +3,7 @@
 	"certifications": [
 		{
 			"name": "Responsive Web Design",
-			"projects: [	
+			"projects": [	
 				{
 					"name": "Tribute Page",
 					"status": false,
@@ -53,7 +53,7 @@
 		},
 		{
 			"name": "JavaScript Algorithms and Data Structures",
-			"projects: [
+			"projects": [
 				{
 					"name": "Palindrome Checker",
 					"status": false,
@@ -103,7 +103,7 @@
 		},
 		{
 			"name": "Front End Libraries",
-			"projects: [
+			"projects": [
 				{
 					"name": "Random Quote Machine",
 					"status": false,
@@ -153,7 +153,7 @@
 		},
 		{
 			"name": "Data Visualization",
-			"projects: [
+			"projects": [
 				{
 					"name": "Bar Chart",
 					"status": false,
@@ -203,7 +203,7 @@
 		},
 		{
 			"name": "APIs and Microservices",
-			"projects: [
+			"projects": [
 				{
 					"name": "Timestamp Microservice",
 					"status": false,
@@ -253,7 +253,7 @@
 		},
 		{
 			"name": "Information Security and Quality Assurance",
-			"projects: [
+			"projects": [
 				{
 					"name": "Metric-Imperial Converter",
 					"status": false,
