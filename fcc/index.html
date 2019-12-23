@@ -19,14 +19,12 @@ layout: default
 				<td colspan=4>{{certificate.name}} <a href="#" class="w3-bar-item w3-button"><i class="fa fa-trophy"></i></a></td>
 			</tr>
 			
-			{% for project in site.data.fcc.certifications.projects %}
-				<tr>
-					<td>{project.name}</td>
-					<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
-					<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
-					<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-link"></i></a></td>
-				</tr>
-			{% endfor %}
+			{% tablerow project in site.data.fcc.certifications.projects %}
+				{{ product.title }}
+				{{<a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a>}}
+				{{<a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a>}}
+				{{<a href="#" class="w3-bar-item w3-button"><i class="fa fa-link"></i></a>}}
+			{% endtablerow %}
 			
 		{% endfor %}
 	</tbody>
