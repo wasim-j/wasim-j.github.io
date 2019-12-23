@@ -1,14 +1,5 @@
 ---
 layout: default
-icon-tick: "fa fa-check-circle"
-icon-cross: "fa fa-times-circle"
-icon-question: "fa fa-question-circle"
-icon-code: "fa fa-code"
-icon-play: "fa fa-play"
-icon-note: "fa fa-sticky-note"
-icon-certificate: "fa fa-certificate"
-icon-link: "fa fa-link"
-icon-code-pen: "fa fa-codepen"
 ---
 
 <h1>{{site.data.fcc.title}}</h1>
@@ -48,7 +39,7 @@ icon-code-pen: "fa fa-codepen"
 					<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
 					<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-link"></i></a></td>
 				{% elsif project.status == false %}
-					<td colspan=3><i class="fa fa-times-circle"></td>
+					<td colspan=3>Not Currently Applicable</td>
 				{% else %}
 					<td colspan=3><i class="fa fa-question-circle"></td>
 				{% endif %}
@@ -57,8 +48,9 @@ icon-code-pen: "fa fa-codepen"
 		{% endfor %}
 		
 		<!--CERTIFICATE 2 -->
+
 		<tr>
-			<td rowspan=6>{{site.data.fcc.certifications[1].name}} <a href="#" class="w3-bar-item w3-button"><i class="fa fa-trophy"></i></a></td>
+			<td rowspan=6>{{site.data.fcc.certifications[1].name}} <a href="#" class="w3-bar-item w3-button"><i class="fa fa-certificate"></i></a></td>
 		</tr>
 		{% for project in site.data.fcc.certifications[1].projects %}
 			<tr>
@@ -70,15 +62,25 @@ icon-code-pen: "fa fa-codepen"
 				{% else %}
 					<td><i class="fa fa-question-circle"></td>
 				{% endif %}
-				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
-				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
-				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-link"></i></a></td>
+				
+				
+				{% if project.status == true %}
+					<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
+					<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
+					<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-link"></i></a></td>
+				{% elsif project.status == false %}
+					<td colspan=3>Not Currently Applicable</td>
+				{% else %}
+					<td colspan=3><i class="fa fa-question-circle"></td>
+				{% endif %}
+				
 			</tr>
 		{% endfor %}
 		
 		<!--CERTIFICATE 3 -->
+
 		<tr>
-			<td rowspan=6>{{site.data.fcc.certifications[2].name}} <a href="#" class="w3-bar-item w3-button"><i class="fa fa-trophy"></i></a></td>
+			<td rowspan=6>{{site.data.fcc.certifications[2].name}} <a href="#" class="w3-bar-item w3-button"><i class="fa fa-certificate"></i></a></td>
 		</tr>
 		{% for project in site.data.fcc.certifications[2].projects %}
 			<tr>
@@ -90,15 +92,25 @@ icon-code-pen: "fa fa-codepen"
 				{% else %}
 					<td><i class="fa fa-question-circle"></td>
 				{% endif %}
-				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
-				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
-				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-link"></i></a></td>
+				
+				
+				{% if project.status == true %}
+					<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
+					<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
+					<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-link"></i></a></td>
+				{% elsif project.status == false %}
+					<td colspan=3>Not Currently Applicable</td>
+				{% else %}
+					<td colspan=3><i class="fa fa-question-circle"></td>
+				{% endif %}
+				
 			</tr>
 		{% endfor %}
 		
 		<!--CERTIFICATE 4 -->
+
 		<tr>
-			<td rowspan=6>{{site.data.fcc.certifications[3].name}} <a href="#" class="w3-bar-item w3-button"><i class="fa fa-trophy"></i></a></td>
+			<td rowspan=6>{{site.data.fcc.certifications[3].name}} <a href="#" class="w3-bar-item w3-button"><i class="fa fa-certificate"></i></a></td>
 		</tr>
 		{% for project in site.data.fcc.certifications[3].projects %}
 			<tr>
@@ -110,15 +122,25 @@ icon-code-pen: "fa fa-codepen"
 				{% else %}
 					<td><i class="fa fa-question-circle"></td>
 				{% endif %}
-				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
-				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
-				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-link"></i></a></td>
+				
+				
+				{% if project.status == true %}
+					<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
+					<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
+					<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-link"></i></a></td>
+				{% elsif project.status == false %}
+					<td colspan=3>Not Currently Applicable</td>
+				{% else %}
+					<td colspan=3><i class="fa fa-question-circle"></td>
+				{% endif %}
+				
 			</tr>
 		{% endfor %}
 		
 		<!--CERTIFICATE 5 -->
+
 		<tr>
-			<td rowspan=6>{{site.data.fcc.certifications[4].name}} <a href="#" class="w3-bar-item w3-button"><i class="fa fa-trophy"></i></a></td>
+			<td rowspan=6>{{site.data.fcc.certifications[4].name}} <a href="#" class="w3-bar-item w3-button"><i class="fa fa-certificate"></i></a></td>
 		</tr>
 		{% for project in site.data.fcc.certifications[4].projects %}
 			<tr>
@@ -130,15 +152,25 @@ icon-code-pen: "fa fa-codepen"
 				{% else %}
 					<td><i class="fa fa-question-circle"></td>
 				{% endif %}
-				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
-				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
-				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-link"></i></a></td>
+				
+				
+				{% if project.status == true %}
+					<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
+					<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
+					<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-link"></i></a></td>
+				{% elsif project.status == false %}
+					<td colspan=3>Not Currently Applicable</td>
+				{% else %}
+					<td colspan=3><i class="fa fa-question-circle"></td>
+				{% endif %}
+				
 			</tr>
 		{% endfor %}
 		
 		<!--CERTIFICATE 6 -->
+
 		<tr>
-			<td rowspan=6>{{site.data.fcc.certifications[5].name}} <a href="#" class="w3-bar-item w3-button"><i class="fa fa-trophy"></i></a></td>
+			<td rowspan=6>{{site.data.fcc.certifications[5].name}} <a href="#" class="w3-bar-item w3-button"><i class="fa fa-certificate"></i></a></td>
 		</tr>
 		{% for project in site.data.fcc.certifications[5].projects %}
 			<tr>
@@ -150,9 +182,18 @@ icon-code-pen: "fa fa-codepen"
 				{% else %}
 					<td><i class="fa fa-question-circle"></td>
 				{% endif %}
-				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
-				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
-				<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-link"></i></a></td>
+				
+				
+				{% if project.status == true %}
+					<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
+					<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
+					<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-link"></i></a></td>
+				{% elsif project.status == false %}
+					<td colspan=3>Not Currently Applicable</td>
+				{% else %}
+					<td colspan=3><i class="fa fa-question-circle"></td>
+				{% endif %}
+				
 			</tr>
 		{% endfor %}
 	</tbody>
