@@ -7,7 +7,6 @@ layout: default
 <table class="w3-table w3-bordered">
 	<thead>
 		<tr>
-			<th>Certificate</th>
 			<th>Project Name</th>
 			<th><i class="fa fa-code"></i></th>
 			<th><i class="fa fa-play"></i></th>
@@ -17,8 +16,18 @@ layout: default
 	<tbody>
 		{% for certificate in site.data.fcc.certifications %}
 			<tr>
-				<td rowspan=5>{{certificate.name}} <a href="#" class="w3-bar-item w3-button"><i class="fa fa-trophy"></i></a></td>
+				<td colspan=4>{{certificate.name}} <a href="#" class="w3-bar-item w3-button"><i class="fa fa-trophy"></i></a></td>
 			</tr>
+			
+			{% for project in site.data.fcc.certifications.projects %}
+				<tr>
+					<td>{project.name}</td>
+					<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
+					<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-codepen"></i></a></td>
+					<td><a href="#" class="w3-bar-item w3-button"><i class="fa fa-link"></i></a></td>
+				</tr>
+			{% endfor %}
+			
 		{% endfor %}
 	</tbody>
 </table>
