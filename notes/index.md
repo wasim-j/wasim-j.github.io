@@ -11,6 +11,7 @@
 - [CS50](https://www.youtube.com/playlist?list=PLWKjhJtqVAbmGw5fN5BQlwuug-8bDmabi)
 - [Basic Terminal Usage](./basics/cli.md)
 - [Git & Github](./basics/git.md)
+- [Data Files](./data-files.md)
 - [Data Structures](./basics/data-str.md)
 - [Algorithms](./basics/algs.md)
 - [SOLID](https://en.wikipedia.org/wiki/SOLID), [KISS](https://en.wikipedia.org/wiki/KISS_principle), [YAGNI](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it)
@@ -23,11 +24,9 @@
 
 ## [Front End Web Development](https://roadmap.sh/frontend)
 - [Jekyll](./front-end/jekyll.md)
-
 - [HTML](./front-end/html/index.md)
 - [CSS](./front-end/css/index.md)
 - [JS](./front-end/js/index.md)
-
 - [Build Tools](./tools/build-tools/index.md)
 - [Type Checkers](./tools/type-checkers/index.md)
 - [Testing](./tools/testing/index.md)
