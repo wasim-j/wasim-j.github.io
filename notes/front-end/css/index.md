@@ -14,12 +14,16 @@ CSS has two building blocks: a **property** and a **value**
 - CSS Rule	`selector {prop:val}`
 
 - Selectors ([basic](./selectors-basic.md), [advanced](./selectors-advanced.md))
-- Units
+- [Units](https://www.w3schools.com/css/css_units.asp)
+- Short Hands
 - Variables
 - Inheritance
-- Box Model
-- Layout
+- [Box Model](https://www.w3schools.com/css/css_boxmodel.asp)
+- Layout([position](https://www.w3schools.com/css/css_positioning.asp))
+- [Fonts](https://www.w3schools.com/css/css_font.asp)
+- [Colors](https://www.w3schools.com/css/css_colors.asp)
 - Visuals
 - Responsive Web Design
 - At-Rules
 - Graphics
+- [Icons](https://www.w3schools.com/css/css_icons.asp)
