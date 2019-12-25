@@ -21,7 +21,9 @@ Selectors
 - advanced selectors ([by attribute](./attr.md), [pseudo-classes](./ps-class.md), [pseudo-elements](./ps-ele.md), [combinators](./comb.md))
 
 [Variables](./variables.md)
+
 [At-Rules](./at-rules.md)
+
 [Units](https://www.w3schools.com/css/css_units.asp) (relative & absolute)
 
 [Inheritance](./inheritance.md) (which selector wins) 
